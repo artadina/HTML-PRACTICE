@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>FORM BIODATA</title>
+    </head>
+    <body bgcolor="#FAFAD2" >
+        <font face="Arial Black" size="5pt">BIODATA</font>
+        <table border="0">
+        <form>
+            <tr>
+                <td><label for="nama">Nama </label></td>
+                <td>:</td>
+                <td><input type="text" size="40" name="nama" id="nama"></td>
+            </tr>
+            <tr>
+                <td><label for="ttl">TTL</label></td>
+                <td>:</td>
+                <td><input type="text" size="40" name="ttl" id="ttl"></td>
+            </tr>
+            <tr>
+                <td><label for="jurusan">Jurusan</label></td>
+                <td>:</td>
+                <td><select name="jurusan" id="jurusan">
+                    <option value="">Pilih Jurusan</option>
+                    <option value="RPL">Rekayasa Perangkat Lunak</option>
+                    <option value="TKJ">Teknik Komputer dan Jaringan</option>
+                    <option value="mm">Multimedia</option>
+                    <option value="akuntan">Akuntansi</option>
+                    <option value="ipa">IPA</option>
+                    <option value="ips">IPS</option>
+                </select> </td>
+            </tr>
+            <tr>
+                <td><label for="alamat">Alamat</label></td>
+                <td>:</td>
+                <td><textarea name="alamat" id="alamat" cols="30" rows="3"></textarea></td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>:</td>
+                <td><input type="radio" name="jkl" id="pria" value="pria">
+                <label for="pria">Pria</label>
+                <input type="radio" name="jkl" id="wanita" value="wanita">
+                <label for="wanita">Wanita</label></td>
+            </tr>
+            <tr>
+                <td><label for="agama">Agana</label></td>
+                <td>:</td>
+                <td><select name="agama" id="agama">
+                    <option value="">Pilih Agama</option>
+                    <option value="islam">Islam</option>
+                    <option value="kristen">Kristen</option>
+                    <option value="hindu">Hindu</option>
+                    <option value="budha">Budha</option>
+                    <option value="katolik">Khatolik</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="nohp">No. HP </label></td>
+                <td>:</td>
+                <td><input type="text" size="40" name="nohp" id="nohp"></td>
+            </tr>
+            <tr>
+                <td>Hobi</td>
+                <td>:</td>
+                <td><input type="checkbox" name="hb" id="membaca" value="membaca">
+                <label for="membaca">Membaca</label>
+                <input type="checkbox" name="hb" id="bernyanyi" value="bernyanyi">
+                <label for="bernyanyi">Bernyanyi</label>
+                <input type="checkbox" name="hb" id="bersepeda" value="bersepeda">
+                <label for="bersepeda">Bersepeda</label></td>
+            </tr>
+        </form>
+        <table>
+    </body>
+</html>
